@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_profile">108dp</dimen>
+    <dimen name="margin_regular">16dp</dimen>
+    <dimen name="margin_xlarge">64dp</dimen>
+    <dimen name="font_size_regular">16sp</dimen>
+    <dimen name="card_stack_height">404dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="card_size">380dp</dimen>
+    <dimen name="card_elevation">12dp</dimen>
+</resources>

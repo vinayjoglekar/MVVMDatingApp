@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_sign_up">
+
+    <fragment
+        android:id="@+id/fragment_sign_up"
+        android:name="com.jovinz.datingapp.account.view.SignUpFragment"
+        tools:layout="@layout/fragment_signup">
+        <action
+            android:id="@+id/action_fragment_sign_up_to_fragment_home"
+            app:destination="@id/fragment_home"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.jovinz.datingapp.home.view.HomeFragment"
+        tools:layout="@layout/fragment_cards">
+
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_liked_profs"
+            app:destination="@id/fragment_liked_profs"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_sign_up"
+            app:destination="@id/fragment_sign_up"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_pay"
+            app:destination="@id/fragment_pay" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_liked_profs"
+        android:name="com.jovinz.datingapp.account.view.LikedProfilesFragment"
+        tools:layout="@layout/fragment_liked_profiles">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragment_pay"
+        android:name="com.jovinz.datingapp.payment.view.PaymentFragment"
+        tools:layout="@layout/fragment_payment">
+
+    </fragment>
+
+</navigation>

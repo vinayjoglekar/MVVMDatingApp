@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DatingApp</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="sign_up">Sign up</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_liked_profile">My Liked Profiles</string>
+    <string name="title_home">Home</string>
+    <string name="title_sign_up">Sign up</string>
+    <string name="title_liked_profiles">My Liked Profiles</string>
+    <string name="msg_name_validation">Please enter full name</string>
+    <string name="msg_dob_validation">Please enter date of birth</string>
+    <string name="msg_gender_validation">Please select gender</string>
+    <string name="date_sep">/</string>
+    <string name="oops_something_went_wrong">Oops! Something went wrong!</string>
+    <string name="log_out">Log out</string>
+    <string name="rewind_male">Get her back!</string>
+    <string name="rewind_female">Get him back!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list_of_payment_options">LIST OF PAYMENT OPTIONS</string>
+    <string name="no_profiles_found">No profiles found</string>
+
+</resources>
